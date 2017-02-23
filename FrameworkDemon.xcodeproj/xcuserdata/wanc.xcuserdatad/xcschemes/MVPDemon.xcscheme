@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23D4F20C1E5EC9AA006AA5B3"
-               BuildableName = "FrameworkDemon.app"
-               BlueprintName = "FrameworkDemon"
+               BlueprintIdentifier = "23D4F2431E5ECA6D006AA5B3"
+               BuildableName = "MVPDemon.app"
+               BlueprintName = "MVPDemon"
                ReferencedContainer = "container:FrameworkDemon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23D4F2251E5EC9AB006AA5B3"
-               BuildableName = "FrameworkDemonTests.xctest"
-               BlueprintName = "FrameworkDemonTests"
-               ReferencedContainer = "container:FrameworkDemon.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23D4F2301E5EC9AB006AA5B3"
-               BuildableName = "FrameworkDemonUITests.xctest"
-               BlueprintName = "FrameworkDemonUITests"
-               ReferencedContainer = "container:FrameworkDemon.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23D4F20C1E5EC9AA006AA5B3"
-            BuildableName = "FrameworkDemon.app"
-            BlueprintName = "FrameworkDemon"
+            BlueprintIdentifier = "23D4F2431E5ECA6D006AA5B3"
+            BuildableName = "MVPDemon.app"
+            BlueprintName = "MVPDemon"
             ReferencedContainer = "container:FrameworkDemon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23D4F20C1E5EC9AA006AA5B3"
-            BuildableName = "FrameworkDemon.app"
-            BlueprintName = "FrameworkDemon"
+            BlueprintIdentifier = "23D4F2431E5ECA6D006AA5B3"
+            BuildableName = "MVPDemon.app"
+            BlueprintName = "MVPDemon"
             ReferencedContainer = "container:FrameworkDemon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23D4F20C1E5EC9AA006AA5B3"
-            BuildableName = "FrameworkDemon.app"
-            BlueprintName = "FrameworkDemon"
+            BlueprintIdentifier = "23D4F2431E5ECA6D006AA5B3"
+            BuildableName = "MVPDemon.app"
+            BlueprintName = "MVPDemon"
             ReferencedContainer = "container:FrameworkDemon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

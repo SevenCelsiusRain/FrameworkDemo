@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E144f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QHz-yz-Xvu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,85 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ClS-d0-fQK">
+                                <rect key="frame" x="113" y="226" width="150" height="62"/>
+                                <color key="backgroundColor" red="0.95034521819999995" green="0.40752825139999999" blue="0.36124858259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="MVP"/>
+                                <connections>
+                                    <action selector="modeOperationAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tt4-Zd-tkx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1j-Mt-tNO">
+                                <rect key="frame" x="113" y="328" width="150" height="62"/>
+                                <color key="backgroundColor" red="0.95034521819999995" green="0.40752825139999999" blue="0.36124858259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="MVVM"/>
+                                <connections>
+                                    <action selector="modeOperationAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="95L-sf-ji8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fE-0f-gX6">
+                                <rect key="frame" x="113" y="430" width="150" height="62"/>
+                                <color key="backgroundColor" red="0.95034521819999995" green="0.40752825139999999" blue="0.36124858259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="CDD"/>
+                                <connections>
+                                    <action selector="modeOperationAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KUz-Kz-D7t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jK4-bi-iEg">
+                                <rect key="frame" x="113" y="124" width="150" height="62"/>
+                                <color key="backgroundColor" red="0.95034521819999995" green="0.40752825139999999" blue="0.36124858259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="KSV-wl-IGA"/>
+                                    <constraint firstAttribute="height" constant="62" id="o8I-M1-f2s"/>
+                                </constraints>
+                                <state key="normal" title="MCV"/>
+                                <connections>
+                                    <action selector="modeOperationAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YtI-2y-wOn"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L1j-Mt-tNO" firstAttribute="width" secondItem="ClS-d0-fQK" secondAttribute="width" id="2ZG-f2-gE6"/>
+                            <constraint firstItem="ClS-d0-fQK" firstAttribute="width" secondItem="jK4-bi-iEg" secondAttribute="width" id="HAr-kD-NLw"/>
+                            <constraint firstItem="7fE-0f-gX6" firstAttribute="height" secondItem="L1j-Mt-tNO" secondAttribute="height" id="Hnv-iL-V7s"/>
+                            <constraint firstItem="7fE-0f-gX6" firstAttribute="top" secondItem="L1j-Mt-tNO" secondAttribute="bottom" constant="40" id="LP0-7t-utC"/>
+                            <constraint firstItem="jK4-bi-iEg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="OaX-oe-Qeh"/>
+                            <constraint firstItem="L1j-Mt-tNO" firstAttribute="height" secondItem="ClS-d0-fQK" secondAttribute="height" id="Twp-6k-A12"/>
+                            <constraint firstItem="7fE-0f-gX6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aA4-8t-v2R"/>
+                            <constraint firstItem="ClS-d0-fQK" firstAttribute="height" secondItem="jK4-bi-iEg" secondAttribute="height" id="dU1-5K-h1J"/>
+                            <constraint firstItem="ClS-d0-fQK" firstAttribute="top" secondItem="jK4-bi-iEg" secondAttribute="bottom" constant="40" id="i17-eD-gHU"/>
+                            <constraint firstItem="ClS-d0-fQK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iQI-nh-ZzS"/>
+                            <constraint firstItem="jK4-bi-iEg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ila-06-6Wy"/>
+                            <constraint firstItem="L1j-Mt-tNO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j35-oc-VLT"/>
+                            <constraint firstItem="L1j-Mt-tNO" firstAttribute="top" secondItem="ClS-d0-fQK" secondAttribute="bottom" constant="40" id="t86-Vm-PXm"/>
+                            <constraint firstItem="7fE-0f-gX6" firstAttribute="width" secondItem="L1j-Mt-tNO" secondAttribute="width" id="zhj-dn-9HB"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Sv1-Xz-gja"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1056.8" y="123.68815592203899"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LNh-Jh-BLU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QHz-yz-Xvu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4NS-jx-aQk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sSH-uf-7rS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TyC-F5-XAi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120.8" y="777.66116941529242"/>
         </scene>
     </scenes>
 </document>

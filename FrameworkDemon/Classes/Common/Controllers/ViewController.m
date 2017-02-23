@@ -25,5 +25,35 @@
     // Dispose of any resources that can be recreated.
 }
 
+// TODO: 模式选择
+- (IBAction)modeOperationAction:(UIButton *)sender {
+    
+    switch (sender.tag) {
+        case 0:
+            // MVC
+            
+            break;
+            
+        case 1:
+            // MVP
+            
+            break;
+            
+        case 2:
+            // MVVM
+            
+            break;
+            
+        case 3:
+            // CDD
+            
+            break;
+            
+        default:
+            break;
+    }
+    
+}
+
 
 @end

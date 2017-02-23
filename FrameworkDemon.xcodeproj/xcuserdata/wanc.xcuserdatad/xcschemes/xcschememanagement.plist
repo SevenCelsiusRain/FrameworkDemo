@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FrameworkDemon.xcscheme</key>
+		<key>CDDDemon.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>MVCDemon.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>MVPDemon.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MVVMDemon.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +38,21 @@
 			<true/>
 		</dict>
 		<key>23D4F2301E5EC9AB006AA5B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23D4F2431E5ECA6D006AA5B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23D4F2541E5ECB3D006AA5B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23D4F2631E5ECB54006AA5B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
