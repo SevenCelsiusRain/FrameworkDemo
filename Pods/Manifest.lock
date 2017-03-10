@@ -1,5 +1,12 @@
 PODS:
   - Masonry (1.0.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
   - XAspect (1.0.5):
     - XAspect/Core (= 1.0.5)
     - XAspect/Macros (= 1.0.5)
@@ -9,12 +16,14 @@ PODS:
 
 DEPENDENCIES:
   - Masonry
+  - ReactiveCocoa (~> 2.5)
   - XAspect
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
 
-PODFILE CHECKSUM: 7f74e770d84430ba43ea7387d24247f1e61f0408
+PODFILE CHECKSUM: 68a46d2d13061cbee7212e8622394ac6590ed7b5
 
 COCOAPODS: 1.1.1
