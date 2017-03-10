@@ -17,6 +17,7 @@
 		238B07731E645046003CE590 /* MCVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238B07711E645046003CE590 /* MCVController.m */; };
 		238B07741E645046003CE590 /* MCVController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 238B07721E645046003CE590 /* MCVController.xib */; };
 		238B07771E645066003CE590 /* MVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 238B07761E645066003CE590 /* MVCModel.m */; };
+		23C7EC451CFDC5C1FE8D3B73 /* libPods-MVCDemon-MVPDemon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C9B082858EF645FB3B1821 /* libPods-MVCDemon-MVPDemon.a */; };
 		23D4F2121E5EC9AA006AA5B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D4F2111E5EC9AA006AA5B3 /* main.m */; };
 		23D4F21B1E5EC9AA006AA5B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D4F2191E5EC9AA006AA5B3 /* Main.storyboard */; };
 		23D4F21D1E5EC9AA006AA5B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D4F21C1E5EC9AA006AA5B3 /* Assets.xcassets */; };
@@ -47,6 +48,9 @@
 		23D4F2951E5ED2A5006AA5B3 /* MVPDemonInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D4F2901E5ED291006AA5B3 /* MVPDemonInfo.plist */; };
 		23D4F2961E5ED2A9006AA5B3 /* MVVMDemonInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D4F2911E5ED291006AA5B3 /* MVVMDemonInfo.plist */; };
 		23D4F2971E5ED2AB006AA5B3 /* CDDDemonInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D4F28F1E5ED291006AA5B3 /* CDDDemonInfo.plist */; };
+		679BDE6825373F867D2974AF /* libPods-MVCDemon-VIPERDemon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C6B523183EE3D82F67ECC /* libPods-MVCDemon-VIPERDemon.a */; };
+		A532F2BF096476F167B75349 /* libPods-MVCDemon-MVVMDemon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94875D99550D8FC5306A6396 /* libPods-MVCDemon-MVVMDemon.a */; };
+		C17B79A23DCA0F061FCAA7AC /* libPods-MVCDemon-CDDDemon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6881B9ECCDB2842150475038 /* libPods-MVCDemon-CDDDemon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1054E2CBE5F88523E5E89677 /* Pods-MVCDemon-VIPERDemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCDemon-VIPERDemon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVCDemon-VIPERDemon/Pods-MVCDemon-VIPERDemon.release.xcconfig"; sourceTree = "<group>"; };
 		23368F6B1E7293440093FB46 /* VIPERDemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23368F6C1E7293440093FB46 /* VIPERDemonInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = VIPERDemonInfo.plist; path = /Users/apple/Desktop/Git/FrameworkDemon/VIPERDemonInfo.plist; sourceTree = "<absolute>"; };
 		238B07701E645046003CE590 /* MCVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCVController.h; sourceTree = "<group>"; };
@@ -96,6 +101,17 @@
 		23D4F28F1E5ED291006AA5B3 /* CDDDemonInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CDDDemonInfo.plist; sourceTree = "<group>"; };
 		23D4F2901E5ED291006AA5B3 /* MVPDemonInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MVPDemonInfo.plist; sourceTree = "<group>"; };
 		23D4F2911E5ED291006AA5B3 /* MVVMDemonInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MVVMDemonInfo.plist; sourceTree = "<group>"; };
+		2483B3D7C6FA60DE0A0732DB /* Pods-MVCDemon-MVPDemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCDemon-MVPDemon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVCDemon-MVPDemon/Pods-MVCDemon-MVPDemon.release.xcconfig"; sourceTree = "<group>"; };
+		6881B9ECCDB2842150475038 /* libPods-MVCDemon-CDDDemon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVCDemon-CDDDemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C9B082858EF645FB3B1821 /* libPods-MVCDemon-MVPDemon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVCDemon-MVPDemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6580DAA6AD0825A3281C5D /* Pods-MVCDemon-CDDDemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCDemon-CDDDemon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCDemon-CDDDemon/Pods-MVCDemon-CDDDemon.debug.xcconfig"; sourceTree = "<group>"; };
+		902C6B523183EE3D82F67ECC /* libPods-MVCDemon-VIPERDemon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVCDemon-VIPERDemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94875D99550D8FC5306A6396 /* libPods-MVCDemon-MVVMDemon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVCDemon-MVVMDemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED3F3468E840ED16D2C8F24 /* Pods-MVCDemon-MVPDemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCDemon-MVPDemon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCDemon-MVPDemon/Pods-MVCDemon-MVPDemon.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A7564A94890CE6B0B0AF3D /* Pods-MVCDemon-MVVMDemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCDemon-MVVMDemon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVCDemon-MVVMDemon/Pods-MVCDemon-MVVMDemon.release.xcconfig"; sourceTree = "<group>"; };
+		ADF7172A526F69613557FB66 /* Pods-MVCDemon-CDDDemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCDemon-CDDDemon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVCDemon-CDDDemon/Pods-MVCDemon-CDDDemon.release.xcconfig"; sourceTree = "<group>"; };
+		DC65D5AC858A46A484B82FBA /* Pods-MVCDemon-MVVMDemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCDemon-MVVMDemon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCDemon-MVVMDemon/Pods-MVCDemon-MVVMDemon.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F0C2708E0DB23ABD4856B6 /* Pods-MVCDemon-VIPERDemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCDemon-VIPERDemon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCDemon-VIPERDemon/Pods-MVCDemon-VIPERDemon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679BDE6825373F867D2974AF /* libPods-MVCDemon-VIPERDemon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C7EC451CFDC5C1FE8D3B73 /* libPods-MVCDemon-MVPDemon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A532F2BF096476F167B75349 /* libPods-MVCDemon-MVVMDemon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,12 +164,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17B79A23DCA0F061FCAA7AC /* libPods-MVCDemon-CDDDemon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2288C27C9694EEE25E8A97ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6881B9ECCDB2842150475038 /* libPods-MVCDemon-CDDDemon.a */,
+				82C9B082858EF645FB3B1821 /* libPods-MVCDemon-MVPDemon.a */,
+				94875D99550D8FC5306A6396 /* libPods-MVCDemon-MVVMDemon.a */,
+				902C6B523183EE3D82F67ECC /* libPods-MVCDemon-VIPERDemon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		23368F6D1E7294590093FB46 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +196,8 @@
 				23D4F2291E5EC9AB006AA5B3 /* FrameworkDemonTests */,
 				23D4F2341E5EC9AB006AA5B3 /* FrameworkDemonUITests */,
 				23D4F20E1E5EC9AA006AA5B3 /* Products */,
+				C16592F9CEAA02A8BE50A772 /* Pods */,
+				2288C27C9694EEE25E8A97ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -338,6 +371,21 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
+		C16592F9CEAA02A8BE50A772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A6580DAA6AD0825A3281C5D /* Pods-MVCDemon-CDDDemon.debug.xcconfig */,
+				ADF7172A526F69613557FB66 /* Pods-MVCDemon-CDDDemon.release.xcconfig */,
+				9ED3F3468E840ED16D2C8F24 /* Pods-MVCDemon-MVPDemon.debug.xcconfig */,
+				2483B3D7C6FA60DE0A0732DB /* Pods-MVCDemon-MVPDemon.release.xcconfig */,
+				DC65D5AC858A46A484B82FBA /* Pods-MVCDemon-MVVMDemon.debug.xcconfig */,
+				A5A7564A94890CE6B0B0AF3D /* Pods-MVCDemon-MVVMDemon.release.xcconfig */,
+				F5F0C2708E0DB23ABD4856B6 /* Pods-MVCDemon-VIPERDemon.debug.xcconfig */,
+				1054E2CBE5F88523E5E89677 /* Pods-MVCDemon-VIPERDemon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -345,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23368F681E7293440093FB46 /* Build configuration list for PBXNativeTarget "VIPERDemon" */;
 			buildPhases = (
+				43C39019DFA96F1D876EA122 /* [CP] Check Pods Manifest.lock */,
 				23368F5E1E7293440093FB46 /* Sources */,
 				23368F621E7293440093FB46 /* Frameworks */,
 				23368F631E7293440093FB46 /* Resources */,
+				630D883BA2517882A9A169DF /* [CP] Embed Pods Frameworks */,
+				F19609E4C0937607CF4B57DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -415,9 +466,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D4F24D1E5ECA6D006AA5B3 /* Build configuration list for PBXNativeTarget "MVPDemon" */;
 			buildPhases = (
+				8AC9BB67F832E48E3A141D2D /* [CP] Check Pods Manifest.lock */,
 				23D4F2441E5ECA6D006AA5B3 /* Sources */,
 				23D4F2481E5ECA6D006AA5B3 /* Frameworks */,
 				23D4F2491E5ECA6D006AA5B3 /* Resources */,
+				83BCA1DE1A75741AC96E8CEA /* [CP] Embed Pods Frameworks */,
+				3ADB13718445DD26C7DCB928 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -432,9 +486,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D4F25E1E5ECB3D006AA5B3 /* Build configuration list for PBXNativeTarget "MVVMDemon" */;
 			buildPhases = (
+				B61313FEFF98169F3C30F31C /* [CP] Check Pods Manifest.lock */,
 				23D4F2551E5ECB3D006AA5B3 /* Sources */,
 				23D4F2591E5ECB3D006AA5B3 /* Frameworks */,
 				23D4F25A1E5ECB3D006AA5B3 /* Resources */,
+				BAEB6CA9B16C153FF56B7D37 /* [CP] Embed Pods Frameworks */,
+				746BED822A77B85F5D6E937E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -449,9 +506,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D4F26D1E5ECB54006AA5B3 /* Build configuration list for PBXNativeTarget "CDDDemon" */;
 			buildPhases = (
+				347001E571CD9B340BE56B81 /* [CP] Check Pods Manifest.lock */,
 				23D4F2641E5ECB54006AA5B3 /* Sources */,
 				23D4F2681E5ECB54006AA5B3 /* Frameworks */,
 				23D4F2691E5ECB54006AA5B3 /* Resources */,
+				FD9CED208D9DC2EECADAD618 /* [CP] Embed Pods Frameworks */,
+				0C3B812E5069E1482192465B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -584,6 +644,189 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C3B812E5069E1482192465B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCDemon-CDDDemon/Pods-MVCDemon-CDDDemon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		347001E571CD9B340BE56B81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3ADB13718445DD26C7DCB928 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCDemon-MVPDemon/Pods-MVCDemon-MVPDemon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C39019DFA96F1D876EA122 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		630D883BA2517882A9A169DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCDemon-VIPERDemon/Pods-MVCDemon-VIPERDemon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		746BED822A77B85F5D6E937E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCDemon-MVVMDemon/Pods-MVCDemon-MVVMDemon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83BCA1DE1A75741AC96E8CEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCDemon-MVPDemon/Pods-MVCDemon-MVPDemon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC9BB67F832E48E3A141D2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B61313FEFF98169F3C30F31C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAEB6CA9B16C153FF56B7D37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCDemon-MVVMDemon/Pods-MVCDemon-MVVMDemon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F19609E4C0937607CF4B57DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCDemon-VIPERDemon/Pods-MVCDemon-VIPERDemon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9CED208D9DC2EECADAD618 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCDemon-CDDDemon/Pods-MVCDemon-CDDDemon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23368F5E1E7293440093FB46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -690,6 +933,7 @@
 /* Begin XCBuildConfiguration section */
 		23368F691E7293440093FB46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F0C2708E0DB23ABD4856B6 /* Pods-MVCDemon-VIPERDemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -706,9 +950,13 @@
 		};
 		23368F6A1E7293440093FB46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1054E2CBE5F88523E5E89677 /* Pods-MVCDemon-VIPERDemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = VIPERDemon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					VIPERDemon,
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/VIPERDemonInfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demon.FrameworkDemon;
@@ -824,7 +1072,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = MVCDemon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					MVCDemon,
+				);
 				INFOPLIST_FILE = FrameworkDemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demon.FrameworkDemon;
@@ -882,10 +1133,12 @@
 		};
 		23D4F24E1E5ECA6D006AA5B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED3F3468E840ED16D2C8F24 /* Pods-MVCDemon-MVPDemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
+					"$(inherited)",
 					MVPDemon,
 				);
 				INFOPLIST_FILE = FrameworkDemon/MVPDemonInfo.plist;
@@ -897,9 +1150,13 @@
 		};
 		23D4F24F1E5ECA6D006AA5B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2483B3D7C6FA60DE0A0732DB /* Pods-MVCDemon-MVPDemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = MVPDemon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					MVPDemon,
+				);
 				INFOPLIST_FILE = FrameworkDemon/MVPDemonInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demon.FrameworkDemon;
@@ -909,6 +1166,7 @@
 		};
 		23D4F25F1E5ECB3D006AA5B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC65D5AC858A46A484B82FBA /* Pods-MVCDemon-MVVMDemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -925,9 +1183,13 @@
 		};
 		23D4F2601E5ECB3D006AA5B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A7564A94890CE6B0B0AF3D /* Pods-MVCDemon-MVVMDemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = MVVMDemon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					MVVMDemon,
+				);
 				INFOPLIST_FILE = FrameworkDemon/MVVMDemonInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demon.FrameworkDemon;
@@ -937,6 +1199,7 @@
 		};
 		23D4F26E1E5ECB54006AA5B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6580DAA6AD0825A3281C5D /* Pods-MVCDemon-CDDDemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -953,9 +1216,13 @@
 		};
 		23D4F26F1E5ECB54006AA5B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF7172A526F69613557FB66 /* Pods-MVCDemon-CDDDemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = CFFDemon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					CFFDemon,
+				);
 				INFOPLIST_FILE = FrameworkDemon/CDDDemonInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demon.FrameworkDemon;

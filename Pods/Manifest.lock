@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.0.2)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+
+DEPENDENCIES:
+  - Masonry
+  - XAspect
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+
+PODFILE CHECKSUM: 7f74e770d84430ba43ea7387d24247f1e61f0408
+
+COCOAPODS: 1.1.1
